@@ -1,6 +1,6 @@
 # Todo App
 
-This is a simple Todo application built with React. It allows you to create, edit, and delete tasks, as well as mark them as completed. The app utilizes local storage to persist the tasks even after a page refresh.
+This is a simple Todo application built with React. It allows you to create, edit, and delete tasks. The app utilizes local storage to persist the tasks even after a page refresh.
 
 ## Features
 
