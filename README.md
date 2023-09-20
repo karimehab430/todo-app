@@ -7,8 +7,10 @@ This is a simple Todo application built with React. It allows you to create, edi
 - Add new tasks with a title, description, and notes.
 - Edit existing tasks to update their details.
 - Delete tasks to remove them from the list.
-- Mark tasks as completed to track your progress.
 - Data is stored in local storage for persistence.
 
+## Screenshots
+![Screenshot 2023-09-21 020834](https://github.com/karimehab430/todo-app-with-react-js/assets/118670911/a104dbb9-2b0f-40bf-b58c-67277bc22295)
 
-![Screenshot 2023-09-21 002835](https://github.com/karimehab430/todo-app/assets/118670911/1a893f4f-499f-4f52-807e-13d0078b10ef)
+![image](https://github.com/karimehab430/todo-app-with-react-js/assets/118670911/ac7596bd-5666-45c3-97fa-f056717d5a45)
+
