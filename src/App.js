@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <FormWrapper></FormWrapper>
       <Footer></Footer>
-
     </div>
   );
 }

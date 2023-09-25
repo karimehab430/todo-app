@@ -29,7 +29,7 @@ const Form = ({ addTodo }) => {
           onChange={(e) => setTask(e.target.value)}
           placeholder="What is the task of the day?"
         />
-        <label style={{color:"white"}}><b>Details</b></label>
+        <label style={{color:"white"}}><b>Details (optional)</b></label>
         <textarea
           type="text"
           value={details}
@@ -37,7 +37,7 @@ const Form = ({ addTodo }) => {
           placeholder="Details"
           style={{height:"100px"}}
         />
-        <label style={{color:"white"}}><b>Notes</b></label>
+        <label style={{color:"white"}}><b>Notes (optional)</b></label>
         <input
           type="text"
           value={notes}
