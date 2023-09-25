@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+body {
+  background: #1e2124;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+.wrapper {
+  background: #36393e;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  min-width: 150vh;
+  margin: 5rem auto;
+  
+}
+@media (max-width: 768px) {
+  .wrapper {
+width: 100vh;    height: auto;
+  }
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+  outline: none;
+  background-color: #424549;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  resize: none;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+button {
+  height: 50px;
+  font-size: 20px;
+  margin: 10px auto;
+  background: #8758ff;
+  text-transform: capitalize;
+  padding: 6px 20px;
+  display: block;
+  border-radius: 5px;
+  border: 0;
   color: white;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Todo {
+  display: flex;
+  flex-direction: column;
+  background: #424549;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.Todo p {
+  word-wrap: break-word;
+}
+
+.Todo .description,
+.Todo .notes {
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+.fa-trash {
+  margin-left: 1rem;
+}
+
+.completed {
+  color: #000000;
+  text-decoration: line-through;
+}
+
+footer {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
